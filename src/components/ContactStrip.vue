@@ -51,42 +51,6 @@
     flex-wrap: wrap;
 }
 
-/* Boutons — dupliqués depuis HeroSection en attendant de les déplacer dans tokens.css */
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-xs);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 13px 26px;
-    border-radius: var(--radius-full);
-    transition: all 0.2s;
-    white-space: nowrap;
-}
-
-.btn--dark {
-    background: var(--ink);
-    color: white;
-}
-
-.btn--dark:hover {
-    background: #2e3d38;
-    transform: translateY(-2px);
-}
-
-.btn--outline {
-    border: 1.5px solid var(--border);
-    color: var(--ink-mid);
-    background: white;
-}
-
-.btn--outline:hover {
-    border-color: var(--accent-mid);
-    color: var(--ink);
-    transform: translateY(-2px);
-}
-
 @media (max-width: 600px) {
     .contact {
         flex-direction: column;

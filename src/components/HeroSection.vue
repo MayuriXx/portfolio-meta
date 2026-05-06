@@ -136,42 +136,6 @@
     align-items: flex-end;
 }
 
-/* Boutons — globaux car réutilisés dans d'autres composants */
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-xs);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 13px 26px;
-    border-radius: var(--radius-full);
-    transition: all 0.2s;
-    white-space: nowrap;
-}
-
-.btn--dark {
-    background: var(--ink);
-    color: white;
-}
-
-.btn--dark:hover {
-    background: #2e3d38;
-    transform: translateY(-2px);
-}
-
-.btn--outline {
-    border: 1.5px solid var(--border);
-    color: var(--ink-mid);
-    background: white;
-}
-
-.btn--outline:hover {
-    border-color: var(--accent-mid);
-    color: var(--ink);
-    transform: translateY(-2px);
-}
-
 /* Animations entrée */
 .hero__inner>* {
     opacity: 0;
