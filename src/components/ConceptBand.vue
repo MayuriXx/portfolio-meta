@@ -1,9 +1,9 @@
 <template>
     <div class="concept">
         <p class="concept__text">
-            Un seul fichier de données.
-            <em>Quatre façons de le lire, de le structurer, de le rendre.</em>
-            Le même résultat visuel — des philosophies techniques radicalement différentes.
+            One data file.
+            <em>Four ways to read it, structure it, render it.</em>
+            Same visual result — radically different technical philosophies.
         </p>
         <div class="concept__stats">
             <div v-for="stat in stats" :key="stat.label" class="concept__stat">
@@ -15,8 +15,9 @@
 </template>
 
 <script setup>
+// Display key metrics: 4 technologies, 1 design system, 1 JSON source
 const stats = [
-    { num: '4', label: 'Technos' },
+    { num: '4', label: 'Technologies' },
     { num: '1', label: 'Design' },
     { num: '1', label: 'JSON' }
 ]

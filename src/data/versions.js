@@ -1,13 +1,18 @@
+/**
+ * Portfolio implementation versions
+ * Each version demonstrates a different technology stack
+ * while maintaining the same design and data structure
+ */
 export const versions = [
   {
     id: 'flutter',
     name: 'Flutter',
     icon: '🐦',
     color: '#54C5F8',
-    status: 'soon', // 'live' quand déployé
+    status: 'soon', // 'live' when deployed
     url: null,
     github: null,
-    description: 'Rendu canvas natif via Flutter Web. Architecture Riverpod, widget tests et golden tests. La version qui sort du lot — un CV rendu par un moteur mobile.',
+    description: 'Native canvas rendering via Flutter Web. Riverpod architecture, widget tests and golden tests. The standout version — a CV rendered by a mobile engine.',
     tags: ['Dart', 'Flutter Web', 'Riverpod', 'Canvas', 'Golden Tests']
   },
   {
@@ -18,7 +23,7 @@ export const versions = [
     status: 'soon',
     url: null,
     github: null,
-    description: 'Composition API, Vue Router, Vite. Données centralisées en JSON. Architecture légère et maintenable — la version la plus lisible pour un dev front.',
+    description: 'Composition API, Vue Router, Vite. Centralized JSON data. Lightweight and maintainable architecture — the most readable version for front-end developers.',
     tags: ['Vue 3', 'Composition API', 'Vite', 'JSON data']
   },
   {
@@ -29,7 +34,7 @@ export const versions = [
     status: 'soon',
     url: null,
     github: null,
-    description: 'Hooks, Context API, composants fonctionnels. L\'approche la plus demandée du marché, exécutée avec rigueur.',
+    description: 'Hooks, Context API, functional components. The most demanded approach on the market, executed with rigor.',
     tags: ['React 18', 'Hooks', 'Context API', 'Vite']
   },
   {
@@ -40,7 +45,7 @@ export const versions = [
     status: 'soon',
     url: null,
     github: null,
-    description: 'Architecture modulaire, services injectables, typage TypeScript strict, RxJS. La version enterprise-grade plébiscitée dans les grands groupes.',
+    description: 'Modular architecture, injectable services, strict TypeScript typing, RxJS. The enterprise-grade version favored by large organizations.',
     tags: ['Angular 17', 'TypeScript', 'Services', 'RxJS']
   }
 ]

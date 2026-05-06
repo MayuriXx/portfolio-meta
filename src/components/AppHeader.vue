@@ -2,15 +2,16 @@
     <header class="header">
         <div class="header__logo">Evan Martho</div>
         <nav class="header__nav">
-            <a href="#versions" class="header__link">Versions</a>
-            <a href="#philosophy" class="header__link">Philosophie</a>
+            <a href="#versions" class="header__link">Implementations</a>
+            <a href="#philosophy" class="header__link">Philosophy</a>
             <a href="mailto:martho.evan@gmail.com" class="header__link header__link--primary">Contact</a>
         </nav>
     </header>
 </template>
 
 <script setup>
-// Pas de logique pour l'instant — stateless
+// No business logic - stateless presentational component
+// Navigation and branding only
 </script>
 
 <style scoped>

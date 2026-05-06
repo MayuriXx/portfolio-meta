@@ -2,12 +2,11 @@
     <section class="philosophy" id="philosophy">
         <div class="philosophy__left">
             <h2 class="philosophy__title">
-                Une archi,<br>quatre fois.
+                One Architecture,<br>Four Times.
             </h2>
             <p class="philosophy__sub">
-                Les choix techniques derrière ce projet reflètent la façon dont
-                j'aborde chaque mission : rigueur, lisibilité et séparation des
-                responsabilités.
+                The technical choices behind this project reflect how I approach
+                every mission: rigor, readability, and separation of concerns.
             </p>
         </div>
 
@@ -21,11 +20,18 @@
 </template>
 
 <script setup>
+/**
+ * Core principles of the portfolio project:
+ * 1. Single source of truth - one cv.json file
+ * 2. Shared design tokens - consistent across all implementations
+ * 3. Independent deployment - no coupling between versions
+ * 4. Open source - transparent, documented code
+ */
 const points = [
-    '<strong>Source unique de vérité</strong> — toutes les versions lisent le même <code>cv.json</code>. Une mise à jour, quatre sites synchronisés.',
-    '<strong>Design token partagé</strong> — couleurs, typographies et espacements définis une fois, traduits dans chaque techno.',
-    '<strong>Déploiement indépendant</strong> — chaque version sur son propre sous-domaine. Zéro couplage entre les implémentations.',
-    '<strong>Code source ouvert</strong> — chaque version a son repo GitHub documenté. <strong>Le code parle autant que le CV.</strong>'
+    '<strong>Single source of truth</strong> — all versions read the same <code>cv.json</code>. One update, four synchronized sites.',
+    '<strong>Shared design tokens</strong> — colors, typography, and spacing defined once, translated into each technology.',
+    '<strong>Independent deployment</strong> — each version on its own subdomain. Zero coupling between implementations.',
+    '<strong>Open source code</strong> — every version has its documented GitHub repo. <strong>The code speaks as much as the CV.</strong>'
 ]
 </script>
 

@@ -1,14 +1,18 @@
+/**
+ * Design tokens - centralized color palette, typography, and spacing
+ * Used across all portfolio implementations to maintain consistency
+ */
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
-  /* Palette */
+  /* Color palette - green/natural theme */
   --c1: #6B9080;
   --c2: #A4C3B2;
   --c3: #CCE3DE;
   --c4: #EAF4F4;
   --c5: #F6FFF8;
 
-  /* Sémantique */
+  /* Semantic color mapping */
   --bg:           var(--c5);
   --surface:      #FFFFFF;
   --border:       var(--c3);
@@ -20,11 +24,11 @@
   --accent-soft:  var(--c3);
   --accent-pale:  var(--c4);
 
-  /* Typo */
+  /* Typography */
   --font-display: 'Syne', sans-serif;
   --font-body:    'Instrument Sans', sans-serif;
 
-  /* Espacements */
+  /* Spacing scale */
   --space-xs:  8px;
   --space-sm:  16px;
   --space-md:  24px;
@@ -32,14 +36,14 @@
   --space-xl:  80px;
   --space-2xl: 120px;
 
-  /* Radius */
+  /* Border radius */
   --radius-sm:  6px;
   --radius-md:  12px;
   --radius-lg:  20px;
   --radius-full: 100px;
 }
 
-/* Reset & base */
+/* Reset and base styles */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -56,7 +60,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── Boutons globaux ── */
+/* Global button styles */
 .btn {
   display: inline-flex;
   align-items: center;

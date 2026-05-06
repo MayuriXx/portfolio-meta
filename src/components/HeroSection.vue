@@ -6,7 +6,7 @@
         <div class="hero__inner">
             <div class="hero__eyebrow">
                 <span class="hero__eyebrow-line" />
-                Même CV · 4 technologies
+                Same CV · 4 technologies
             </div>
 
             <h1 class="hero__title">
@@ -16,13 +16,13 @@
 
             <div class="hero__bottom">
                 <p class="hero__desc">
-                    Développeur Full Stack Mobile. Ce site est lui-même un projet —
-                    le même CV, construit en Flutter, Vue.js, React et Angular pour
-                    démontrer l'adaptabilité technique.
+                    Full Stack Mobile Developer. This site is a project itself —
+                    the same CV, built in Flutter, Vue.js, React and Angular to
+                    demonstrate technical adaptability.
                 </p>
                 <div class="hero__actions">
-                    <a href="#versions" class="btn btn--dark">Voir les versions</a>
-                    <a href="mailto:martho.evan@gmail.com" class="btn btn--outline">Me contacter</a>
+                    <a href="#versions" class="btn btn--dark">View Implementations</a>
+                    <a href="mailto:martho.evan@gmail.com" class="btn btn--outline">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -30,7 +30,8 @@
 </template>
 
 <script setup>
-// stateless
+// Stateless component - displays hero banner with intro text
+// Contains decorative blobs and CTA buttons
 </script>
 
 <style scoped>
@@ -45,7 +46,7 @@
     overflow: hidden;
 }
 
-/* Blobs décoratifs */
+/* Decorative blobs */
 .hero__blob {
     position: absolute;
     border-radius: 50%;

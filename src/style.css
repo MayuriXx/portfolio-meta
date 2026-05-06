@@ -1,3 +1,8 @@
+/**
+ * Global application styles
+ * Includes base typography, colors, and layout definitions
+ * Component-specific styles are in their respective Vue files
+ */
 :root {
   --text: #6b6375;
   --text-h: #08060d;

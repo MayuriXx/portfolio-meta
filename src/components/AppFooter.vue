@@ -16,7 +16,8 @@
 </template>
 
 <script setup>
-// stateless
+// Footer component with contact information and social links
+// Stateless - displays copyright and navigation links
 </script>
 
 <style scoped>

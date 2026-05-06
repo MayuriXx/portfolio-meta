@@ -1,11 +1,11 @@
 <template>
     <section class="grid-section" id="versions">
         <div class="grid-section__header">
-            <h2 class="grid-section__title">Les quatre<br>versions</h2>
+            <h2 class="grid-section__title">Four<br>Implementations</h2>
             <p class="grid-section__intro">
-                Chaque implémentation respecte le même design token et lit le même
-                <code>cv.json</code> — seule l'architecture interne change.
-                Chaque repo est ouvert et documenté.
+                Each implementation respects the same design tokens and reads the same
+                <code>cv.json</code> — only the internal architecture changes.
+                Every repository is open source and documented.
             </p>
         </div>
 
@@ -16,6 +16,8 @@
 </template>
 
 <script setup>
+// Grid display of all portfolio implementations
+// Imports version data and renders a card for each technology
 import { versions } from '../data/versions.js'
 import VersionCard from './VersionCard.vue'
 </script>

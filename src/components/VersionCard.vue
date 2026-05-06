@@ -35,6 +35,8 @@
 </template>
 
 <script setup>
+// Individual version card component
+// Displays technology details, status, and links
 defineProps({
     version: {
         type: Object,

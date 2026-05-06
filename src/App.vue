@@ -21,7 +21,10 @@ import AppFooter from './components/AppFooter.vue'
 </script>
 
 <style>
-/* styles globaux uniquement ici, le reste dans les composants */
+/**
+ * Global styles - component-specific styles are scoped in their files
+ * Main layout uses flexbox for vertical stacking of sections
+ */
 main {
   display: flex;
   flex-direction: column;
