@@ -7,6 +7,7 @@
     <PhilosophySection />
     <ContactStrip />
   </main>
+  <AppFooter />
 </template>
 
 <script setup>
@@ -16,6 +17,7 @@ import ConceptBand from './components/ConceptBand.vue'
 import VersionsGrid from './components/VersionsGrid.vue'
 import PhilosophySection from './components/PhilosophySection.vue'
 import ContactStrip from './components/ContactStrip.vue'
+import AppFooter from './components/AppFooter.vue'
 </script>
 
 <style>
