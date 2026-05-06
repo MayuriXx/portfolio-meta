@@ -11,7 +11,7 @@ A portfolio project showcasing the same CV implemented across four different fra
 
 This repository contains the **Vue.js implementation** of the portfolio.
 
-```
+```plaintext
 src/
 ├── components/        # Reusable Vue components
 │   ├── AppHeader.vue     # Fixed navigation header

@@ -1,8 +1,8 @@
 <template>
     <section class="contact">
         <div class="contact__left">
-            <h2 class="contact__title">Let's Talk?</h2>
-            <p class="contact__sub">Available for new opportunities · Lille & remote</p>
+            <h2 class="contact__title">On discute ?</h2>
+            <p class="contact__sub">Disponible pour de nouvelles opportunités · Lille & remote</p>
         </div>
         <div class="contact__actions">
 

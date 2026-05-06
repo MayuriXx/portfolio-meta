@@ -1,9 +1,9 @@
 <template>
     <div class="concept">
         <p class="concept__text">
-            One data file.
-            <em>Four ways to read it, structure it, render it.</em>
-            Same visual result — radically different technical philosophies.
+            Un seul fichier de données.
+            <em>Quatre façons de le lire, de le structurer, de le rendre.</em>
+            Le même résultat visuel — des philosophies techniques radicalement différentes.
         </p>
         <div class="concept__stats">
             <div v-for="stat in stats" :key="stat.label" class="concept__stat">
