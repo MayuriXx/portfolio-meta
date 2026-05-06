@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  /* Palette */
+  --c1: #6B9080;
+  --c2: #A4C3B2;
+  --c3: #CCE3DE;
+  --c4: #EAF4F4;
+  --c5: #F6FFF8;
+
+  /* Sémantique */
+  --bg:           var(--c5);
+  --surface:      #FFFFFF;
+  --border:       var(--c3);
+  --ink:          #1E2A25;
+  --ink-mid:      #4A6358;
+  --ink-light:    #8AAB99;
+  --accent:       var(--c1);
+  --accent-mid:   var(--c2);
+  --accent-soft:  var(--c3);
+  --accent-pale:  var(--c4);
+
+  /* Typo */
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Instrument Sans', sans-serif;
+
+  /* Espacements */
+  --space-xs:  8px;
+  --space-sm:  16px;
+  --space-md:  24px;
+  --space-lg:  48px;
+  --space-xl:  80px;
+  --space-2xl: 120px;
+
+  /* Radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 100px;
+}
+
+/* Reset & base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
