@@ -21,9 +21,9 @@ export const versions = [
     name: "Vue.js",
     icon: "💚",
     color: "#2D9E6B",
-    status: "soon",
-    url: null,
-    github: null,
+    status: "live",
+    url: "https://mayurixx.github.io/portfolio-vue/",
+    githubUrl: "https://github.com/MayuriXx/portfolio-vue",
     description:
       "Composition API, Vue Router, Vite. Données centralisées en JSON. Architecture légère et maintenable — la version la plus lisible pour un dev front.",
     tags: ["Vue 3", "Composition API", "Vite", "JSON data"],
